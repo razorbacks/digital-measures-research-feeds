@@ -14,4 +14,32 @@ class DigitalMeasures
         $password = config('digital-measures.password');
         $this->api = new Api($username, $password);
     }
+
+    protected function map(string $key) : string
+    {
+        $key = strtolower($key);
+
+        $departments = [
+            "acct" => "Accounting",
+            "econ" => "Economics",
+            "isys" => "Information+Systems+Department",
+            "finn" => "Finance",
+            "mgmt" => "Management",
+            "mktg" => "Marketing",
+            "scmt" => "Supply+Chain+Management",
+        ];
+
+        if (empty($departments[$key])) {
+            abort(404);
+        }
+
+        return $departments[$key];
+    }
+
+    public function get(string $department)
+    {
+        $endpoint = '/SchemaData/INDIVIDUAL-ACTIVITIES-Business/DEPARTMENT:%s/INTELLCONT';
+        $url = sprintf($endpoint, $this->map($department));
+        return $this->api->get($url);
+    }
 }

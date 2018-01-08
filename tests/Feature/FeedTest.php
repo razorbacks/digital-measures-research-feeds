@@ -6,25 +6,29 @@ use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Mockery;
-use App\DigitalMeasures;
+use App\Client;
 
 class FeedTest extends TestCase
 {
     public function test_can_invalidate_department()
     {
-        $this->get('/api/v1/foobar')->assertStatus(404);
+        $this
+            ->withExceptionHandling()
+            ->get('/api/v1/foobar')
+            ->assertStatus(404)
+        ;
     }
 
-    public function test_can_route_expected()
+    public function test_can_transform_xml_into_html()
     {
-        $expected = 'supply chain management';
+        $xml = file_get_contents(__DIR__.'/../fixtures/xml/scmt.xml');
+        $expected = file_get_contents(__DIR__.'/../fixtures/html/scmt.html');
 
-        $mock = Mockery::mock(DigitalMeasures::class);
+        $mock = Mockery::mock(Client::class);
         $mock->allows()
             ->get('scmt')
-            ->andReturns($expected);
-
-        app()->instance(DigitalMeasures::class, $mock);
+            ->andReturns($xml);
+        app()->instance(Client::class, $mock);
 
         $this->get('/api/v1/scmt')->assertSee($expected);
     }

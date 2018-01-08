@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Data xmlns="http://www.digitalmeasures.com/schema/data" xmlns:dmd="http://www.digitalmeasures.com/schema/data-metadata" dmd:date="2018-01-08">
+	<Record userId="65386" username="aloysius" termId="129" dmd:surveyId="33617">
+		<dmd:IndexEntry indexKey="AACSBSUFF" entryKey="Participating" text="Participating"/>
+		<dmd:IndexEntry indexKey="DEPARTMENT" entryKey="Supply Chain Management" text="Supply Chain Management"/>
+		<dmd:IndexEntry indexKey="QUALIFICATION" entryKey="Scholarly Academic" text="Scholarly Academic"/>
+		<dmd:IndexEntry indexKey="RANK" entryKey="Professor" text="Professor"/>
+		<INTELLCONT id="104605716480" dmd:originalSource="MANUAL" dmd:lastModified="2016-06-21T12:54:04" dmd:startDate="2014-04-01" dmd:endDate="2016-02-28">
+			<RESEARCH_SCOPE>Research-related</RESEARCH_SCOPE>
+			<CONTYPE>Journal Article, Academic Journal</CONTYPE>
+			<CONTYPEOTHER/>
+			<CLASSIFICATION>Basic or Discovery Scholarship</CLASSIFICATION>
+			<STATUS>Published</STATUS>
+			<STATUS_DESCRIPTION/>
+			<TITLE>Exploring Framing Effects in Inventory Control Decisions: Violations of Procedure Invariance</TITLE>
+			<INTELLCONT_AUTH id="104605716484">
+				<FACULTY_NAME>105401</FACULTY_NAME>
+				<FNAME>Travis</FNAME>
+				<MNAME/>
+				<LNAME>Tokar</LNAME>
+				<ISSTUDENT/>
+				<DISPLAY>No</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_AUTH id="104605716481">
+				<FACULTY_NAME>65386</FACULTY_NAME>
+				<FNAME>John</FNAME>
+				<MNAME>A.</MNAME>
+				<LNAME>Aloysius</LNAME>
+				<ISSTUDENT/>
+				<DISPLAY>Yes</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_AUTH id="104605716485">
+				<FACULTY_NAME>93297</FACULTY_NAME>
+				<FNAME>Matthew</FNAME>
+				<MNAME/>
+				<LNAME>Waller</LNAME>
+				<ISSTUDENT/>
+				<DISPLAY>Yes</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_AUTH id="104605716486">
+				<FACULTY_NAME/>
+				<FNAME>Doyle</FNAME>
+				<MNAME/>
+				<LNAME>Hawkins</LNAME>
+				<ISSTUDENT/>
+				<DISPLAY>No</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_EDITOR id="104605716482">
+				<FACULTY_NAME/>
+				<FNAME/>
+				<MNAME/>
+				<LNAME/>
+				<DISPLAY/>
+			</INTELLCONT_EDITOR>
+			<PUBLISHER_LIST>Production and Operations Management</PUBLISHER_LIST>
+			<PUBLISHER/>
+			<PUBCTYST/>
+			<PUBCNTRY/>
+			<VOLUME>25</VOLUME>
+			<ISSUE>2</ISSUE>
+			<PAGENUM>306-329</PAGENUM>
+			<ISBNISSN/>
+			<QUALITY>Elite / Top Tier Journal</QUALITY>
+			<AUDIENCE/>
+			<AUDIENCE_TYPE>Academic</AUDIENCE_TYPE>
+			<REFEREED>Yes</REFEREED>
+			<PUBLICAVAIL>Yes</PUBLICAVAIL>
+			<CROSS_DISCIPLINARY/>
+			<PRIMARY_FUNDING_SOURCE/>
+			<MISSION>Retail &amp; Supply Chain</MISSION>
+			<RESEARCH_CENTER>Behavioral Business Research Laboratory</RESEARCH_CENTER>
+			<RESEARCH_CENTER>Supply Chain Management Research Center</RESEARCH_CENTER>
+			<CITATION_COUNT/>
+			<DTM_CITATION_COUNT/>
+			<DTD_CITATION_COUNT/>
+			<DTY_CITATION_COUNT/>
+			<CITATION_COUNT_START/>
+			<CITATION_COUNT_END/>
+			<YR_PERFORMANCE_REPORT/>
+			<INCLUDE_AFPR>Yes</INCLUDE_AFPR>
+			<DTM_EXPSUB/>
+			<DTD_EXPSUB/>
+			<DTY_EXPSUB/>
+			<EXPSUB_START/>
+			<EXPSUB_END/>
+			<DTM_SUB>April</DTM_SUB>
+			<DTD_SUB/>
+			<DTY_SUB>2014</DTY_SUB>
+			<SUB_START>2014-04-01</SUB_START>
+			<SUB_END>2014-04-30</SUB_END>
+			<DTM_ACC>June</DTM_ACC>
+			<DTY_ACC>2015</DTY_ACC>
+			<ACC_START>2015-06-01</ACC_START>
+			<ACC_END>2015-06-30</ACC_END>
+			<DTM_PUB>February</DTM_PUB>
+			<DTD_PUB/>
+			<DTY_PUB>2016</DTY_PUB>
+			<PUB_START>2016-02-01</PUB_START>
+			<PUB_END>2016-02-28</PUB_END>
+			<ABSTRACT>Words can be powerful -- it is well kNown that when an option is framed as a gain instead of a loss, people perceive and behave differently. This research explores the framing of supply chain options and how framing can effect inventory managers decisions</ABSTRACT>
+			<UPLOAD_WORKING_PAPER/>
+			<USER_REFERENCE_CREATOR>Yes</USER_REFERENCE_CREATOR>
+		</INTELLCONT>
+		<INTELLCONT id="111109812224" dmd:originalSource="MANUAL" dmd:lastModified="2017-12-21T23:02:09" dmd:startDate="2015-01-01" dmd:endDate="2016-01-31">
+			<RESEARCH_SCOPE>Research-related</RESEARCH_SCOPE>
+			<CONTYPE>Journal Article, Academic Journal</CONTYPE>
+			<CONTYPEOTHER/>
+			<CLASSIFICATION>Basic or Discovery Scholarship</CLASSIFICATION>
+			<STATUS>Published</STATUS>
+			<STATUS_DESCRIPTION/>
+			<TITLE>Exploiting Big Data for Customer and Retailer Benefits: A Study of Emerging Mobile Checkout Scenarios</TITLE>
+			<INTELLCONT_AUTH id="111109812225">
+				<FACULTY_NAME>65386</FACULTY_NAME>
+				<FNAME>John</FNAME>
+				<MNAME>A.</MNAME>
+				<LNAME>Aloysius</LNAME>
+				<ISSTUDENT>No</ISSTUDENT>
+				<DISPLAY>Yes</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_AUTH id="111109812228">
+				<FACULTY_NAME>1391826</FACULTY_NAME>
+				<FNAME>Hartmut</FNAME>
+				<MNAME/>
+				<LNAME>Hoehle</LNAME>
+				<ISSTUDENT/>
+				<DISPLAY>Yes</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_AUTH id="111109812229">
+				<FACULTY_NAME>89126</FACULTY_NAME>
+				<FNAME>Viswanath</FNAME>
+				<MNAME/>
+				<LNAME>Venkatesh</LNAME>
+				<ISSTUDENT/>
+				<DISPLAY>No</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_EDITOR id="111109812226">
+				<FACULTY_NAME/>
+				<FNAME/>
+				<MNAME/>
+				<LNAME/>
+				<DISPLAY/>
+			</INTELLCONT_EDITOR>
+			<PUBLISHER_LIST>International Journal of Operations and Production Management</PUBLISHER_LIST>
+			<PUBLISHER/>
+			<PUBCTYST/>
+			<PUBCNTRY/>
+			<VOLUME>36</VOLUME>
+			<ISSUE>4</ISSUE>
+			<PAGENUM>467-486</PAGENUM>
+			<ISBNISSN/>
+			<QUALITY>Near Elite / Second Tier Journal</QUALITY>
+			<AUDIENCE/>
+			<AUDIENCE_TYPE>Academic</AUDIENCE_TYPE>
+			<REFEREED>Yes</REFEREED>
+			<PUBLICAVAIL>Yes</PUBLICAVAIL>
+			<CROSS_DISCIPLINARY/>
+			<PRIMARY_FUNDING_SOURCE/>
+			<MISSION>Data Analytics</MISSION>
+			<MISSION>Retail &amp; Supply Chain</MISSION>
+			<RESEARCH_CENTER>Center for Retailing Excellence</RESEARCH_CENTER>
+			<CITATION_COUNT/>
+			<DTM_CITATION_COUNT/>
+			<DTD_CITATION_COUNT/>
+			<DTY_CITATION_COUNT/>
+			<CITATION_COUNT_START/>
+			<CITATION_COUNT_END/>
+			<YR_PERFORMANCE_REPORT/>
+			<INCLUDE_AFPR>Yes</INCLUDE_AFPR>
+			<DTM_EXPSUB/>
+			<DTD_EXPSUB/>
+			<DTY_EXPSUB/>
+			<EXPSUB_START/>
+			<EXPSUB_END/>
+			<DTM_SUB>January</DTM_SUB>
+			<DTD_SUB/>
+			<DTY_SUB>2015</DTY_SUB>
+			<SUB_START>2015-01-01</SUB_START>
+			<SUB_END>2015-01-31</SUB_END>
+			<DTM_ACC>May</DTM_ACC>
+			<DTY_ACC>2015</DTY_ACC>
+			<ACC_START>2015-05-01</ACC_START>
+			<ACC_END>2015-05-31</ACC_END>
+			<DTM_PUB>January (1st Quarter/Winter)</DTM_PUB>
+			<DTD_PUB/>
+			<DTY_PUB>2016</DTY_PUB>
+			<PUB_START>2016-01-01</PUB_START>
+			<PUB_END>2016-01-31</PUB_END>
+			<ABSTRACT>A study of service processes utilizing fixed and mobile scanning and payment processes.</ABSTRACT>
+			<UPLOAD_WORKING_PAPER>vvenkat/intellcont/Aloysius-et-al.-2016-Int.-J.-Operations-Production-Management-1-1.pdf</UPLOAD_WORKING_PAPER>
+			<USER_REFERENCE_CREATOR>Yes</USER_REFERENCE_CREATOR>
+		</INTELLCONT>
+	</Record>
+	<Record userId="93297" username="mwaller" termId="129" dmd:surveyId="33717">
+		<dmd:IndexEntry indexKey="AACSBSUFF" entryKey="Participating" text="Participating"/>
+		<dmd:IndexEntry indexKey="DEPARTMENT" entryKey="Supply Chain Management" text="Supply Chain Management"/>
+		<dmd:IndexEntry indexKey="QUALIFICATION" entryKey="Scholarly Academic" text="Scholarly Academic"/>
+		<dmd:IndexEntry indexKey="RANK" entryKey="Professor" text="Professor"/>
+		<INTELLCONT id="104605716480" dmd:originalSource="MANUAL" dmd:lastModified="2016-06-21T12:54:04" dmd:startDate="2014-04-01" dmd:endDate="2016-02-28">
+			<RESEARCH_SCOPE>Research-related</RESEARCH_SCOPE>
+			<CONTYPE>Journal Article, Academic Journal</CONTYPE>
+			<CONTYPEOTHER/>
+			<CLASSIFICATION>Basic or Discovery Scholarship</CLASSIFICATION>
+			<STATUS>Published</STATUS>
+			<STATUS_DESCRIPTION/>
+			<TITLE>Exploring Framing Effects in Inventory Control Decisions: Violations of Procedure Invariance</TITLE>
+			<INTELLCONT_AUTH id="104605716484">
+				<FACULTY_NAME>105401</FACULTY_NAME>
+				<FNAME>Travis</FNAME>
+				<MNAME/>
+				<LNAME>Tokar</LNAME>
+				<ISSTUDENT/>
+				<DISPLAY>No</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_AUTH id="104605716481">
+				<FACULTY_NAME>65386</FACULTY_NAME>
+				<FNAME>John</FNAME>
+				<MNAME>A.</MNAME>
+				<LNAME>Aloysius</LNAME>
+				<ISSTUDENT/>
+				<DISPLAY>Yes</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_AUTH id="104605716485">
+				<FACULTY_NAME>93297</FACULTY_NAME>
+				<FNAME>Matthew</FNAME>
+				<MNAME/>
+				<LNAME>Waller</LNAME>
+				<ISSTUDENT/>
+				<DISPLAY>Yes</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_AUTH id="104605716486">
+				<FACULTY_NAME/>
+				<FNAME>Doyle</FNAME>
+				<MNAME/>
+				<LNAME>Hawkins</LNAME>
+				<ISSTUDENT/>
+				<DISPLAY>No</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_EDITOR id="104605716482">
+				<FACULTY_NAME/>
+				<FNAME/>
+				<MNAME/>
+				<LNAME/>
+				<DISPLAY/>
+			</INTELLCONT_EDITOR>
+			<PUBLISHER_LIST>Production and Operations Management</PUBLISHER_LIST>
+			<PUBLISHER/>
+			<PUBCTYST/>
+			<PUBCNTRY/>
+			<VOLUME>25</VOLUME>
+			<ISSUE>2</ISSUE>
+			<PAGENUM>306-329</PAGENUM>
+			<ISBNISSN/>
+			<QUALITY>Elite / Top Tier Journal</QUALITY>
+			<AUDIENCE/>
+			<AUDIENCE_TYPE>Academic</AUDIENCE_TYPE>
+			<REFEREED>Yes</REFEREED>
+			<PUBLICAVAIL>Yes</PUBLICAVAIL>
+			<CROSS_DISCIPLINARY/>
+			<PRIMARY_FUNDING_SOURCE/>
+			<MISSION>Retail &amp; Supply Chain</MISSION>
+			<RESEARCH_CENTER>Behavioral Business Research Laboratory</RESEARCH_CENTER>
+			<RESEARCH_CENTER>Supply Chain Management Research Center</RESEARCH_CENTER>
+			<CITATION_COUNT/>
+			<DTM_CITATION_COUNT/>
+			<DTD_CITATION_COUNT/>
+			<DTY_CITATION_COUNT/>
+			<CITATION_COUNT_START/>
+			<CITATION_COUNT_END/>
+			<YR_PERFORMANCE_REPORT/>
+			<INCLUDE_AFPR>Yes</INCLUDE_AFPR>
+			<DTM_EXPSUB/>
+			<DTD_EXPSUB/>
+			<DTY_EXPSUB/>
+			<EXPSUB_START/>
+			<EXPSUB_END/>
+			<DTM_SUB>April</DTM_SUB>
+			<DTD_SUB/>
+			<DTY_SUB>2014</DTY_SUB>
+			<SUB_START>2014-04-01</SUB_START>
+			<SUB_END>2014-04-30</SUB_END>
+			<DTM_ACC>June</DTM_ACC>
+			<DTY_ACC>2015</DTY_ACC>
+			<ACC_START>2015-06-01</ACC_START>
+			<ACC_END>2015-06-30</ACC_END>
+			<DTM_PUB>February</DTM_PUB>
+			<DTD_PUB/>
+			<DTY_PUB>2016</DTY_PUB>
+			<PUB_START>2016-02-01</PUB_START>
+			<PUB_END>2016-02-28</PUB_END>
+			<ABSTRACT>Words can be powerful -- it is well kNown that when an option is framed as a gain instead of a loss, people perceive and behave differently. This research explores the framing of supply chain options and how framing can effect inventory managers decisions</ABSTRACT>
+			<UPLOAD_WORKING_PAPER/>
+			<USER_REFERENCE_CREATOR>No</USER_REFERENCE_CREATOR>
+		</INTELLCONT>
+	</Record>
+</Data>

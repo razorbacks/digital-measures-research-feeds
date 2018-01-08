@@ -3,8 +3,9 @@
 namespace App;
 
 use razorbacks\digitalmeasures\rest\Api;
+use SimpleXMLElement;
 
-class DigitalMeasures
+class Client
 {
     protected $api;
 
@@ -36,10 +37,12 @@ class DigitalMeasures
         return $departments[$key];
     }
 
-    public function get(string $department)
+    public function get(string $department) : string
     {
         $endpoint = '/SchemaData/INDIVIDUAL-ACTIVITIES-Business/DEPARTMENT:%s/INTELLCONT';
+
         $url = sprintf($endpoint, $this->map($department));
+
         return $this->api->get($url);
     }
 }

@@ -13,4 +13,4 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/v1/{department}', 'FeedController@get');
+Route::get('/v1/departments/{department}', 'FeedController@get');

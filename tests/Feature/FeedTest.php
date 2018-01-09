@@ -14,7 +14,7 @@ class FeedTest extends TestCase
     {
         $this
             ->withExceptionHandling()
-            ->get('/api/v1/foobar')
+            ->get('/api/v1/departments/foobar')
             ->assertStatus(404)
         ;
     }
@@ -30,6 +30,6 @@ class FeedTest extends TestCase
             ->andReturns($xml);
         app()->instance(Client::class, $mock);
 
-        $this->get('/api/v1/scmt')->assertSee($expected);
+        $this->get('/api/v1/departments/scmt')->assertSee($expected);
     }
 }

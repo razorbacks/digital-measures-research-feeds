@@ -21,6 +21,12 @@ class Transformer
                 continue;
             }
 
+            try {
+                $publication->sortDate = $this->getDate($publication);
+            } catch (MissingDate $e) {
+                continue;
+            }
+
             $publications[$id] = $publication;
         }
 
@@ -35,8 +41,8 @@ class Transformer
     protected function sort(array &$publications)
     {
         usort($publications, function ($a, $b) {
-            $first = $this->getDate($a);
-            $second = $this->getDate($b);
+            $first = new Carbon($a->sortDate);
+            $second = new Carbon($b->sortDate);
 
             if ($first->gt($second)) {
                 return -1;
@@ -50,18 +56,18 @@ class Transformer
         });
     }
 
-    protected function getDate(SimpleXMLElement $publication) : Carbon
+    protected function getDate(SimpleXMLElement $publication) : string
     {
-        $date = $publication->PUB_END;
+        foreach (['PUB_END', 'ACC_END', 'SUB_END'] as $date) {
+            $date = (string)$publication->$date;
 
-        if (empty((string)$date)) {
-            $date = $publication->ACC_END;
+            if ($date) {
+                return $date;
+            }
         }
 
-        if (empty((string)$date)) {
-            $date = $publication->SUB_END;
-        }
-
-        return new Carbon($date);
+        throw new MissingDate;
     }
 }
+
+class MissingDate extends \InvalidArgumentException {}

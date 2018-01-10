@@ -16,7 +16,12 @@ class Transformer
 
         foreach ($xml->xpath($query) as $publication) {
             // removes duplicates
-            $publications[(string)$publication['id']] = $publication;
+            $id = (string)$publication['id'];
+            if (isset($publications[$id])) {
+                continue;
+            }
+
+            $publications[$id] = $publication;
         }
 
         $this->sort($publications);

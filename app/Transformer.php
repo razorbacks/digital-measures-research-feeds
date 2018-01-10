@@ -30,8 +30,8 @@ class Transformer
     protected function sort(array &$publications)
     {
         usort($publications, function ($a, $b) {
-            $first = new Carbon($a->ACC_END);
-            $second = new Carbon($b->ACC_END);
+            $first = $this->getDate($a);
+            $second = $this->getDate($b);
 
             if ($first->gt($second)) {
                 return -1;
@@ -43,5 +43,20 @@ class Transformer
 
             return 0;
         });
+    }
+
+    protected function getDate(SimpleXMLElement $publication) : Carbon
+    {
+        $date = $publication->PUB_END;
+
+        if (empty((string)$date)) {
+            $date = $publication->ACC_END;
+        }
+
+        if (empty((string)$date)) {
+            $date = $publication->SUB_END;
+        }
+
+        return new Carbon($date);
     }
 }

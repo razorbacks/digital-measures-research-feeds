@@ -387,4 +387,96 @@
 			<USER_REFERENCE_CREATOR>No</USER_REFERENCE_CREATOR>
 		</INTELLCONT>
 	</Record>
+	<Record userId="738665" username="yjin" termId="129" dmd:surveyId="2847631">
+		<dmd:IndexEntry indexKey="AACSBSUFF" entryKey="Supporting" text="Supporting"/>
+		<dmd:IndexEntry indexKey="DEPARTMENT" entryKey="Supply Chain Management" text="Supply Chain Management"/>
+		<dmd:IndexEntry indexKey="RANK" entryKey="Ph.D. Candidate" text="Ph.D. Candidate"/>
+		<INTELLCONT id="84468580352" dmd:originalSource="MANUAL" dmd:lastModified="2016-06-21T12:54:04" dmd:startDate="2013-02-01" dmd:endDate="2013-02-28">
+			<RESEARCH_SCOPE>Research-related</RESEARCH_SCOPE>
+			<CONTYPE>Conference Proceeding</CONTYPE>
+			<CONTYPEOTHER/>
+			<CLASSIFICATION>Basic or Discovery Scholarship</CLASSIFICATION>
+			<STATUS>Published</STATUS>
+			<STATUS_DESCRIPTION/>
+			<TITLE>CSR Dimensional Inequality: The Impact of Corporate Social Responsibility Performance</TITLE>
+			<INTELLCONT_AUTH id="84468580353">
+				<FACULTY_NAME>742069</FACULTY_NAME>
+				<FNAME>Laurel</FNAME>
+				<MNAME>Aynne</MNAME>
+				<LNAME>Cook</LNAME>
+				<ISSTUDENT>Yes</ISSTUDENT>
+				<DISPLAY>Yes</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_AUTH id="84468580355">
+				<FACULTY_NAME>116461</FACULTY_NAME>
+				<FNAME>Ronn</FNAME>
+				<MNAME>J</MNAME>
+				<LNAME>Smith</LNAME>
+				<ISSTUDENT>No</ISSTUDENT>
+				<DISPLAY>Yes</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_AUTH id="84468580356">
+				<FACULTY_NAME>738665</FACULTY_NAME>
+				<FNAME>Yao</FNAME>
+				<MNAME></MNAME>
+				<LNAME>Jin</LNAME>
+				<ISSTUDENT>Yes</ISSTUDENT>
+				<DISPLAY>Yes</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_EDITOR id="84468580354">
+				<FACULTY_NAME/>
+				<FNAME/>
+				<MNAME/>
+				<LNAME/>
+				<DISPLAY/>
+			</INTELLCONT_EDITOR>
+			<PUBLISHER_LIST>American Marketing Association Proceedings</PUBLISHER_LIST>
+			<PUBLISHER/>
+			<PUBCTYST/>
+			<PUBCNTRY/>
+			<VOLUME>24</VOLUME>
+			<ISSUE/>
+			<PAGENUM>80-81</PAGENUM>
+			<ISBNISSN/>
+			<QUALITY>Elite / Top Tier Journal</QUALITY>
+			<AUDIENCE/>
+			<AUDIENCE_TYPE>Academic</AUDIENCE_TYPE>
+			<REFEREED>Yes</REFEREED>
+			<PUBLICAVAIL>Yes</PUBLICAVAIL>
+			<CROSS_DISCIPLINARY/>
+			<PRIMARY_FUNDING_SOURCE/>
+			<MISSION>Diversity / Inclusivity</MISSION>
+			<RESEARCH_CENTER>None</RESEARCH_CENTER>
+			<CITATION_COUNT/>
+			<DTM_CITATION_COUNT/>
+			<DTD_CITATION_COUNT/>
+			<DTY_CITATION_COUNT/>
+			<CITATION_COUNT_START></CITATION_COUNT_START>
+			<CITATION_COUNT_END></CITATION_COUNT_END>
+			<YR_PERFORMANCE_REPORT/>
+			<INCLUDE_AFPR>Yes</INCLUDE_AFPR>
+			<DTM_EXPSUB/>
+			<DTD_EXPSUB/>
+			<DTY_EXPSUB/>
+			<EXPSUB_START></EXPSUB_START>
+			<EXPSUB_END></EXPSUB_END>
+			<DTM_SUB/>
+			<DTD_SUB/>
+			<DTY_SUB/>
+			<SUB_START></SUB_START>
+			<SUB_END></SUB_END>
+			<DTM_ACC/>
+			<DTY_ACC/>
+			<ACC_START></ACC_START>
+			<ACC_END></ACC_END>
+			<DTM_PUB>February</DTM_PUB>
+			<DTD_PUB/>
+			<DTY_PUB>2013</DTY_PUB>
+			<PUB_START>2013-02-01</PUB_START>
+			<PUB_END>2013-02-28</PUB_END>
+			<ABSTRACT/>
+			<UPLOAD_WORKING_PAPER/>
+			<USER_REFERENCE_CREATOR>No</USER_REFERENCE_CREATOR>
+		</INTELLCONT>
+	</Record>
 </Data>

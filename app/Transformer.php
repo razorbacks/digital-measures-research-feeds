@@ -3,6 +3,7 @@
 namespace App;
 
 use SimpleXMLElement;
+use Carbon\Carbon;
 
 class Transformer
 {
@@ -18,6 +19,29 @@ class Transformer
             $publications[(string)$publication['id']] = $publication;
         }
 
+        $this->sort($publications);
+
         return $publications;
+    }
+
+    /**
+     * orders newest publications first
+     */
+    protected function sort(array &$publications)
+    {
+        usort($publications, function ($a, $b) {
+            $first = new Carbon($a->ACC_END);
+            $second = new Carbon($b->ACC_END);
+
+            if ($first->gt($second)) {
+                return -1;
+            }
+
+            if ($first->lt($second)) {
+                return 1;
+            }
+
+            return 0;
+        });
     }
 }

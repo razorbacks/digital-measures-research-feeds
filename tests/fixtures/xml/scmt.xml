@@ -189,6 +189,101 @@
 			<UPLOAD_WORKING_PAPER>vvenkat/intellcont/Aloysius-et-al.-2016-Int.-J.-Operations-Production-Management-1-1.pdf</UPLOAD_WORKING_PAPER>
 			<USER_REFERENCE_CREATOR>Yes</USER_REFERENCE_CREATOR>
 		</INTELLCONT>
+		<INTELLCONT id="153422692352" dmd:originalSource="MANUAL" dmd:lastModified="2017-11-08T20:04:59" dmd:startDate="2017-11-01" dmd:endDate="2017-11-30">
+			<RESEARCH_SCOPE>Research-related</RESEARCH_SCOPE>
+			<CONTYPE>Journal Article, Academic Journal</CONTYPE>
+			<CONTYPEOTHER/>
+			<CLASSIFICATION>Basic or Discovery Scholarship</CLASSIFICATION>
+			<STATUS>Accepted</STATUS>
+			<STATUS_DESCRIPTION/>
+			<TITLE>Customers’ Tolerance for Validation in Omnichannel Retail Stores: Enabling Logistics and Supply Chain Analytics</TITLE>
+			<INTELLCONT_AUTH id="153422692356">
+				<FACULTY_NAME>1391826</FACULTY_NAME>
+				<FNAME>Hartmut</FNAME>
+				<MNAME></MNAME>
+				<LNAME>Hoehle</LNAME>
+				<ISSTUDENT/>
+				<DISPLAY>No</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_AUTH id="153422692353">
+				<FACULTY_NAME>65386</FACULTY_NAME>
+				<FNAME>John</FNAME>
+				<MNAME>A.</MNAME>
+				<LNAME>Aloysius</LNAME>
+				<ISSTUDENT/>
+				<DISPLAY>Yes</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_AUTH id="153422692357">
+				<FACULTY_NAME/>
+				<FNAME>Frank</FNAME>
+				<MNAME/>
+				<LNAME>Chan</LNAME>
+				<ISSTUDENT/>
+				<DISPLAY>No</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_AUTH id="153422692358">
+				<FACULTY_NAME>89126</FACULTY_NAME>
+				<FNAME>Viswanath</FNAME>
+				<MNAME></MNAME>
+				<LNAME>Venkatesh</LNAME>
+				<ISSTUDENT/>
+				<DISPLAY>No</DISPLAY>
+			</INTELLCONT_AUTH>
+			<INTELLCONT_EDITOR id="153422692354">
+				<FACULTY_NAME/>
+				<FNAME/>
+				<MNAME/>
+				<LNAME/>
+				<DISPLAY/>
+			</INTELLCONT_EDITOR>
+			<PUBLISHER_LIST>International Journal of Logistics Management</PUBLISHER_LIST>
+			<PUBLISHER/>
+			<PUBCTYST/>
+			<PUBCNTRY/>
+			<VOLUME/>
+			<ISSUE/>
+			<PAGENUM/>
+			<ISBNISSN/>
+			<QUALITY/>
+			<AUDIENCE/>
+			<AUDIENCE_TYPE>Academic</AUDIENCE_TYPE>
+			<REFEREED>Yes</REFEREED>
+			<PUBLICAVAIL/>
+			<CROSS_DISCIPLINARY/>
+			<PRIMARY_FUNDING_SOURCE/>
+			<MISSION>Retail &amp; Supply Chain</MISSION>
+			<RESEARCH_CENTER>Supply Chain Management Research Center</RESEARCH_CENTER>
+			<CITATION_COUNT/>
+			<DTM_CITATION_COUNT/>
+			<DTD_CITATION_COUNT/>
+			<DTY_CITATION_COUNT/>
+			<CITATION_COUNT_START></CITATION_COUNT_START>
+			<CITATION_COUNT_END></CITATION_COUNT_END>
+			<YR_PERFORMANCE_REPORT/>
+			<INCLUDE_AFPR>Yes</INCLUDE_AFPR>
+			<DTM_EXPSUB/>
+			<DTD_EXPSUB/>
+			<DTY_EXPSUB/>
+			<EXPSUB_START></EXPSUB_START>
+			<EXPSUB_END></EXPSUB_END>
+			<DTM_SUB/>
+			<DTD_SUB/>
+			<DTY_SUB/>
+			<SUB_START></SUB_START>
+			<SUB_END></SUB_END>
+			<DTM_ACC>November</DTM_ACC>
+			<DTY_ACC>2017</DTY_ACC>
+			<ACC_START>2017-11-01</ACC_START>
+			<ACC_END>2017-11-30</ACC_END>
+			<DTM_PUB/>
+			<DTD_PUB/>
+			<DTY_PUB/>
+			<PUB_START></PUB_START>
+			<PUB_END></PUB_END>
+			<ABSTRACT/>
+			<UPLOAD_WORKING_PAPER/>
+			<USER_REFERENCE_CREATOR>Yes</USER_REFERENCE_CREATOR>
+		</INTELLCONT>
 	</Record>
 	<Record userId="93297" username="mwaller" termId="129" dmd:surveyId="33717">
 		<dmd:IndexEntry indexKey="AACSBSUFF" entryKey="Participating" text="Participating"/>

@@ -40,7 +40,12 @@ done
 # laravel
 export APP_KEY="$(php artisan key:generate --show)"
 export APP_NAME="Digital Measures Research Feeds"
+export DIGITAL_MEASURES_USERNAME
 export DIGITAL_MEASURES_PASSWORD
-export DIGITAL_MEASURES_PASSWORD
+export MAIL_HOST
+export MAIL_USERNAME
+export MAIL_PASSWORD
+export EXCEPTION_MAILER_TO_ADDRESS
+export MAIL_FROM_ADDRESS
 
 exec apache2 -DFOREGROUND "$@"

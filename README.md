@@ -4,9 +4,9 @@ Microservice providing feeds for research data collected on https://www.digitalm
 
 ## Installation
 
-Build the container.
+Pull the image from [Docker hub][dockerhub].
 
-    ./docker/build.bash
+    docker pull wcob/digital-measures-research-feeds
 
 Run the container on host port 2345.
 
@@ -19,3 +19,11 @@ Run the container on host port 2345.
         --env EXCEPTION_MAILER_TO_ADDRESS="notify@example.com" \
         --env MAIL_FROM_ADDRESS="logger@example.com" \
         wcob/digital-measures-research-feeds
+
+## Development
+
+Build the container.
+
+    ./docker/build.bash
+
+[dockerhub]:https://hub.docker.com/r/wcob/digital-measures-research-feeds/

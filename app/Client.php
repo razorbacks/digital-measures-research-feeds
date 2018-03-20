@@ -39,7 +39,7 @@ class Client
 
     public function get(string $department) : string
     {
-        $endpoint = '/SchemaData/INDIVIDUAL-ACTIVITIES-Business/DEPARTMENT:%s/INTELLCONT';
+        $endpoint = '/SchemaData/INDIVIDUAL-ACTIVITIES-University/DEPARTMENT:%s/INTELLCONT';
 
         $url = sprintf($endpoint, $this->map($department));
 

@@ -12,8 +12,11 @@ class Transformer
         $xml = new SimpleXMLElement($xml);
         $xml->registerXPathNamespace('dm', 'http://www.digitalmeasures.com/schema/data');
 
-        $query = "//dm:INTELLCONT[dm:RESEARCH_SCOPE='Research-related'][dm:STATUS='Published' or dm:STATUS='Accepted'][dm:INTELLCONT_AUTH[dm:FACULTY_NAME=../../@userId][dm:DISPLAY='Yes']]";
-
+        /**
+        *$query = "//dm:INTELLCONT[dm:RESEARCH_SCOPE='Research-related'][dm:STATUS='Published' or dm:STATUS='Accepted'][dm:INTELLCONT_AUTH[dm:FACULTY_NAME=../../@userId][dm:DISPLAY='Yes']]";
+        */
+        $query = "//dm:INTELLCONT[dm:CLASSIFICATION='Basic or Discovery Scholarship' or dm:CLASSIFICATION='Applied or Integration/Application Scholarship'][dm:STATUS='Published' or dm:STATUS='Accepted'][dm:INTELLCONT_AUTH[dm:FACULTY_NAME=../../@userId][dm:WEB_PROFILE='Yes']]";
+        
         foreach ($xml->xpath($query) as $publication) {
             // removes duplicates
             $id = (string)$publication['id'];

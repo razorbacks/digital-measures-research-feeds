@@ -18,7 +18,7 @@ class Transformer
         $query = "//dm:INTELLCONT[dm:CLASSIFICATION='Basic or Discovery Scholarship' or dm:CLASSIFICATION='Applied or Integration/Application Scholarship' or dm:CLASSIFICATION='Teaching and Learning Scholarship'][dm:STATUS='Published' or dm:STATUS='Accepted'][dm:INTELLCONT_AUTH[dm:FACULTY_NAME=../../@userId][dm:WEB_PROFILE='Yes']]";
         
         foreach ($xml->xpath($query) as $publication) {
-            // removes duplicates
+            // removes duplicates2
             $id = (string)$publication['id'];
             if (isset($publications[$id])) {
                 continue;
